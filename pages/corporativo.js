@@ -27,7 +27,7 @@ export default function Corporativo() {
                 <a className="link">Email de Contato</a>
             </Link>
             
-            <Link href="http://www.chavemestra.net/">
+            <Link href="http://www.chavemestra.net/empresas">
                 <a className="link">Site Chave-Mestra</a>
             </Link>
 
