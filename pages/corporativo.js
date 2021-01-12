@@ -19,7 +19,7 @@ export default function Corporativo() {
             <Image src={Logo} layout="fill" className="logo"/>
         </div>
 
-        <h1>@chavemestraescape</h1>
+        <h1>@chavemestracorp</h1>
 
         <div className="grid">
 
