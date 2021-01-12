@@ -23,16 +23,20 @@ export default function Corporativo() {
 
         <div className="grid">
 
+            <Link href="mailto:thais@chavemestra.net">
+                <a className="link">Email de Contato</a>
+            </Link>
+            
             <Link href="http://www.chavemestra.net/">
                 <a className="link">Site Chave-Mestra</a>
             </Link>
 
-            <Link href="https://api.whatsapp.com/send?1=pt_BR&phone=5551992337112">
+            <Link href="https://api.whatsapp.com/send?phone=5551981285704">
                 <a className="link">Whatsapp</a>
             </Link>
 
-            <Link href="http://www.instagram.com/chavemestracorp">
-                <a className="link">Jogos Corporativos</a>
+            <Link href="https://www.youtube.com/watch?v=mqX596Yy_kU&feature=youtu.be">
+                <a className="link">Video Escape GO</a>
             </Link>
 
         </div>
