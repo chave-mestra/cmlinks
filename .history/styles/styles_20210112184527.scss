@@ -1,0 +1,75 @@
+$background: #151515;
+$accent: #FFCE02;
+$corp-accent: #00A3FF;
+$text-light:#eaeaea;
+
+$header-bg: #282828;
+$content-bg: #282828;
+$site-width: 1150px;
+$border-radius: 40px;
+
+$orange: #FF7B02;
+$green: #55FB79;
+$yellow: #FFCE02;
+$blue: #00A3FF;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:#eaeaea;
+}
+html, body{
+    padding:0;
+    margin:0 auto;
+    font-family: 'Roboto', 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    background: $background;
+    color:#eaeaea;
+    text-align: center;
+}
+a{
+    text-decoration:none;
+    transition: 0.3s;
+}
+a:hover{
+    color:$accent;
+}
+ul, li{
+    list-style: none;
+}
+button:focus {
+    outline: none;
+    border: none;
+}
+
+.logo-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 260px;
+    margin-top: 20px;
+
+    .logo{
+        object-fit: contain;
+    }
+}
+
+.grid{
+    display: grid;
+    max-width: 600px;
+    grid-gap: 20px;
+    padding: 40px;
+
+    .link{
+        background: $yellow;
+        padding: 20px;
+        font-size: 18px;
+        font-weight: 900;
+        color: #000;
+        border-radius: $border-radius;
+    }
+}

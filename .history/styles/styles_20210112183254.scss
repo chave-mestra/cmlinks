@@ -1,0 +1,65 @@
+$background: #151515;
+$accent: #FFCE02;
+$corp-accent: #00A3FF;
+//$corp-accent: #0580FF;
+$text-light:#eaeaea;
+
+$header-bg: #282828;
+$content-bg: #282828;
+$site-width: 1150px;
+$border-radius: 20px;
+
+$orange: #FF7B02;
+$green: #55FB79;
+$yellow: #FFCE02;
+$blue: #00A3FF;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:#eaeaea;
+}
+html, body{
+    padding:0;
+    margin:0 auto;
+    font-family: 'Roboto', 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+    'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    background: $background;
+    color:#eaeaea
+}
+a{
+    text-decoration:none;
+    transition: 0.3s;
+}
+a:hover{
+    color:$accent;
+}
+ul, li{
+    list-style: none;
+}
+button:focus {
+    outline: none;
+    border: none;
+}
+
+.logo-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    min-height: 200px;
+
+    .logo{
+        object-fit: contain;
+        border: 1px solid white;
+        color: $yellow;
+
+        path {
+            fill: $yellow;
+        }
+    }
+}

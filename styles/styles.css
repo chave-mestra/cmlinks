@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #eaeaea;
+}
+
+html, body {
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Roboto', 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  background: #151515;
+  color: #eaeaea;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #FFCE02;
+}
+
+ul, li {
+  list-style: none;
+}
+
+button:focus {
+  outline: none;
+  border: none;
+}
+
+.logo-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 260px;
+  margin-top: 20px;
+}
+
+.logo-wrapper .logo {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  margin: 0 auto;
+  max-width: 660px;
+  grid-gap: 20px;
+  padding: 40px;
+}
+
+.grid .link {
+  background: #FFCE02;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 900;
+  color: #000;
+  border-radius: 40px;
+}
+
+.blue .link {
+  background: #00A3FF;
+}
+/*# sourceMappingURL=styles.css.map */
