@@ -19,7 +19,9 @@ export default function Corporativo() {
             <Image src={Logo} layout="fill" className="logo"/>
         </div>
 
-        <h1>@chavemestracorp</h1>
+        <Link href="https://www.instagram.com/chavemestracorp/">
+          <a><h1>@chavemestracorp</h1></a>
+        </Link>
 
         <div className="grid">
 

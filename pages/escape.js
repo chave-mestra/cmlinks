@@ -18,7 +18,9 @@ export default function Escape() {
             <Image src={Logo} layout="fill" className="logo"/>
         </div>
 
-        <h1>@chavemestraescape</h1>
+        <Link href="https://www.instagram.com/chavemestragramado/">
+          <a><h1>@chavemestragramado</h1></a>
+        </Link>
 
         <div className="grid">
 
