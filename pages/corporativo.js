@@ -37,6 +37,10 @@ export default function Corporativo() {
                 <a className="link">Whatsapp</a>
             </Link>
 
+            <Link href="https://www.linkedin.com/company/10607371/">
+                <a className="link">LinkedIn</a>
+            </Link>
+
             <Link href="https://www.youtube.com/watch?v=mqX596Yy_kU&feature=youtu.be">
                 <a className="link">Video Escape GO</a>
             </Link>
