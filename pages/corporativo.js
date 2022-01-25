@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import Logo from '../public/logo_blue.svg'
+import Logo from '../public/cm-corp-blue.svg'
 
 export default function Corporativo() {
   return (
@@ -25,7 +25,7 @@ export default function Corporativo() {
 
         <div className="grid">
 
-            <Link href="http://www.chavemestra.net/empresas">
+            <Link href="http://www.chavemestra.net/corporativo">
                 <a className="link">Site Chave-Mestra</a>
             </Link>
 
@@ -33,7 +33,7 @@ export default function Corporativo() {
                 <a className="link">Email de Contato</a>
             </Link>
 
-            <Link href="https://api.whatsapp.com/send?phone=5551981285704">
+            <Link href="https://api.whatsapp.com/send?phone=555432951788">
                 <a className="link">Whatsapp</a>
             </Link>
 
