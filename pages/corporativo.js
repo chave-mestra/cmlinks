@@ -19,13 +19,13 @@ export default function Corporativo() {
             <Image src={Logo} layout="fill" className="logo"/>
         </div>
 
-        <Link href="https://www.instagram.com/chavemestracorp/">
-          <a><h1>@chavemestracorp</h1></a>
+        <Link href="https://www.instagram.com/cmgamificacao/">
+          <a><h1>@cmgamificacao</h1></a>
         </Link>
 
         <div className="grid">
 
-            <Link href="http://www.chavemestra.net/corporativo">
+            <Link href="http://www.chavemestra.net/gamificacao">
                 <a className="link">Site Chave-Mestra</a>
             </Link>
 
@@ -35,6 +35,10 @@ export default function Corporativo() {
 
             <Link href="https://api.whatsapp.com/send?phone=555432951788">
                 <a className="link">Whatsapp</a>
+            </Link>
+
+            <Link href="https://chavemestra.net/corporativo/cases">
+                <a className="link">Artigos</a>
             </Link>
 
         </div>

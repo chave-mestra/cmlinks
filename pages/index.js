@@ -32,7 +32,7 @@ export default function Escape() {
                 <a className="link">Whatsapp</a>
             </Link>
 
-            <Link href="http://www.instagram.com/chavemestracorp">
+            <Link href="http://www.instagram.com/cmgamificacao">
                 <a className="link">Jogos Corporativos</a>
             </Link>
 
