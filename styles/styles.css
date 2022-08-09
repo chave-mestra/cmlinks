@@ -72,6 +72,50 @@ button:focus {
      object-fit: contain;
 }
 
+.bottom-logo-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 220px;
+  margin-top: -40px;
+}
+
+.bottom-logo-wrapper .logo {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.photo-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 220px;
+  width: 220px;
+  margin: 1rem auto;
+}
+
+.photo-wrapper .photo {
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50%;
+  border: 1px solid red !important;
+  overflow: hidden;
+}
+
 .grid {
   display: -ms-grid;
   display: grid;
