@@ -16,7 +16,7 @@ export default function PersonalProfile(props) {
 
       <main>
         <div className="photo-wrapper">
-            <Image src={Logo} layout="fill" className="photo"/>
+            <Image priority src={props.photo} layout="fill" className="photo"/>
         </div>
 
         <h1>{props.name}</h1>
