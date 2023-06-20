@@ -25,6 +25,10 @@ export default function Corporativo() {
 
         <div className="grid">
 
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeQ4owwBou3aCrEKWATo0-ZdXnpDcPj-J0XGWkla822R1y1kA/viewform">
+                <a className="link">Curso de Gamificação</a>
+            </Link>
+            
             <Link href="http://www.chavemestra.net/gamificacao">
                 <a className="link">Site Chave-Mestra</a>
             </Link>
