@@ -1,6 +1,6 @@
 import CmProfile from '../components/CmProfile'
 import PersonalProfile from '../components/PersonalProfile'
-import photo from '../public/lucas-2023.jpg'
+import photo from '../public/leonel.jpeg'
 
 export default function Page() {
   return <>
@@ -8,9 +8,9 @@ export default function Page() {
     <CmProfile/>
 
     <PersonalProfile
-      name="Lucas Martins"
-      whats="5551992434789"
-      linkedin="https://www.linkedin.com/in/lucas-martins-dev/"
+      name="Leonel Gaedke"
+      whats="5551980594255"
+      linkedin="https://www.linkedin.com/in/leonel-godois-gaedke-544541b4/"
       photo={photo}
     />
   </>

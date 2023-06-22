@@ -2,7 +2,7 @@ import React from 'react'
 import App from 'next/app'
 import Script from 'next/script'
 
-import '../styles/styles.css'
+import '../styles/styles.scss'
 
 export default class MyApp extends App {
 

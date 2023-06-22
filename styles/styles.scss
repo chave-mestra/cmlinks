@@ -108,15 +108,15 @@ button:focus {
     max-width: 660px;
     grid-gap: 20px;
     padding: 40px;
+}
 
-    .link{
-        background: $yellow;
-        padding: 20px;
-        font-size: 18px;
-        font-weight: 900;
-        color: #000;
-        border-radius: $border-radius;
-    }
+.link{
+    background: $yellow;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #000;
+    border-radius: $border-radius;
 }
 
 .blue{

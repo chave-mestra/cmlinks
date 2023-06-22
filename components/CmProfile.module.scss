@@ -1,0 +1,97 @@
+@keyframes bg {
+    0%{
+        background-color: #00A3FF;
+    }
+    25%{
+        background-color: #17B890;
+    }
+    50%{
+        background-color: #FF299C;
+    }
+    75%{
+        background-color: #26C485;
+    }
+    100%{
+        background-color: #5D2E8C;
+    }
+}
+
+.cmProfile{
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+
+    .abrh{
+        position: sticky;
+        top: 0;
+        margin: -1rem -3rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        background-color: #00A3FF;
+        z-index: 10;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: bg 5s infinite;
+        transition: all 0.3s ease;
+
+        .trophy{
+            height: 250%;
+        }
+    }
+
+    h1{margin-bottom: 2rem;}
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        gap: .75rem;
+
+        >a{
+            background-color: #FCFCFC;
+            color: #121212;
+            border: 3px solid #00A3FF;
+            border-radius: 1rem;
+            border-bottom: 6px solid #00A3FF;
+            font-size: 1.3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: .5rem;
+            &:is(:hover){
+                background-color: #FCFCFC;
+                border-color: #00A3FF;
+            }
+
+            &:nth-of-type(2){
+                border-color: #17B890;
+                &:is(:hover){
+                    color:#17B890;
+                }
+            }
+            &:nth-of-type(3){
+                border-color: #5D2E8C;
+                &:is(:hover){
+                    color:#5D2E8C;
+                }
+            }
+            &:nth-of-type(3){
+                border-color: #FF299C;
+                &:is(:hover){
+                    color:#FF299C;
+                }
+            }
+            &:nth-of-type(4){
+                border-color: #F39237;
+                &:is(:hover){
+                    color:#F39237;
+                }
+            }
+            
+        }
+    }
+
+}
