@@ -31,20 +31,20 @@ export default function CmProfile() {
             <h1>Soluções em Gamificação para:</h1>
 
             <div className={styles.links}>
-                <Link href="https://chavemestra.net/corporativo/produtos/jogos-digitais#escape-hunter">
-                    <a target="_blank" className="link"><Image src="/icons/target.svg" alt="icon target" width={30} height={30}/>Processos Seletivos</a>
+                <Link target="_blank" className="link" href="https://chavemestra.net/corporativo/produtos/jogos-digitais#escape-hunter">
+                    <Image src="/icons/target.svg" alt="icon target" width={30} height={30}/>Processos Seletivos
                 </Link>
 
-                <Link href="https://chavemestra.net/corporativo/produtos/jogos-presenciais">
-                    <a target="_blank" className="link"><Image src="/icons/team.svg" alt="icon team" width={30} height={30}/>Desenvolvimento de Equipes</a>
+                <Link target="_blank" className="link" href="https://chavemestra.net/corporativo/produtos/jogos-presenciais">
+                    <Image src="/icons/team.svg" alt="icon team" width={30} height={30}/>Desenvolvimento de Equipes
                 </Link>
 
-                <Link href="https://chavemestra.net/corporativo/produtos/jogos-digitais#fluxo-game">
-                    <a target="_blank" className="link"><Image src="/icons/handshake.svg" alt="icon handshake" width={30} height={30}/>Onboarding</a>
+                <Link target="_blank" className="link" href="https://chavemestra.net/corporativo/produtos/jogos-digitais#fluxo-game">
+                    <Image src="/icons/handshake.svg" alt="icon handshake" width={30} height={30}/>Onboarding
                 </Link>
 
-                <Link href="https://chavemestra.net/gamificacao#o-que-fazemos">
-                    <a target="_blank" className="link"><Image src="/icons/idea.svg" alt="icon idea" width={30} height={30}/>Outros</a>
+                <Link target="_blank" className="link" href="https://chavemestra.net/gamificacao#o-que-fazemos">
+                    <Image src="/icons/idea.svg" alt="icon idea" width={30} height={30}/>Outros
                 </Link>
             </div>
             

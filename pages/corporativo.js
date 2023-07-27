@@ -20,29 +20,29 @@ export default function Corporativo() {
         </div>
 
         <Link href="https://www.instagram.com/cmgamificacao/">
-          <a><h1>@cmgamificacao</h1></a>
+          <h1>@cmgamificacao</h1>
         </Link>
 
         <div className="grid">
 
-            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeQ4owwBou3aCrEKWATo0-ZdXnpDcPj-J0XGWkla822R1y1kA/viewform">
-                <a className="link">Curso de Gamificação</a>
+            <Link className="link" href="https://docs.google.com/forms/d/e/1FAIpQLSeQ4owwBou3aCrEKWATo0-ZdXnpDcPj-J0XGWkla822R1y1kA/viewform">
+                Curso de Gamificação
             </Link>
             
-            <Link href="http://www.chavemestra.net/gamificacao">
-                <a className="link">Site Chave-Mestra</a>
+            <Link className="link" href="http://www.chavemestra.net/gamificacao">
+                Site Chave-Mestra
             </Link>
 
-            <Link href="mailto:thais@chavemestra.net">
-                <a className="link">Email de Contato</a>
+            <Link className="link" href="mailto:thais@chavemestra.net">
+                Email de Contato
             </Link>
 
-            <Link href="https://api.whatsapp.com/send?phone=555432951788">
-                <a className="link">Whatsapp</a>
+            <Link className="link" href="https://api.whatsapp.com/send?phone=555432951788">
+                Whatsapp
             </Link>
 
-            <Link href="https://chavemestra.net/corporativo/cases">
-                <a className="link">Artigos</a>
+            <Link className="link" href="https://chavemestra.net/corporativo/cases">
+                Artigos
             </Link>
 
         </div>

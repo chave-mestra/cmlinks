@@ -19,21 +19,21 @@ export default function Escape() {
         </div>
 
         <Link href="https://www.instagram.com/chavemestragramado/">
-          <a><h1>@chavemestragramado</h1></a>
+          <h1>@chavemestragramado</h1>
         </Link>
 
         <div className="grid">
 
-            <Link href="http://www.chavemestra.net/">
-                <a className="link">Site Chave-Mestra</a>
+            <Link className="link" href="http://www.chavemestra.net/">
+                Site Chave-Mestra
             </Link>
 
-            <Link href="https://api.whatsapp.com/send?1=pt_BR&phone=5551992337112">
-                <a className="link">Whatsapp</a>
+            <Link className="link" href="https://api.whatsapp.com/send?1=pt_BR&phone=5551992337112">
+                Whatsapp
             </Link>
 
-            <Link href="http://www.instagram.com/chavemestracorp">
-                <a className="link">Jogos Corporativos</a>
+            <Link className="link" href="http://www.instagram.com/chavemestracorp">
+                Jogos Corporativos
             </Link>
 
         </div>

@@ -23,16 +23,16 @@ export default function PersonalProfile(props) {
 
         <div className="grid">
 
-            <Link href={`https://api.whatsapp.com/send?1=pt_BR&phone=${props.whats}`}>
-                <a className="link"><i className="fa-brands fa-whatsapp"></i> Whatsapp</a>
+            <Link className="link" href={`https://api.whatsapp.com/send?1=pt_BR&phone=${props.whats}`}>
+                <i className="fa-brands fa-whatsapp"></i> Whatsapp
             </Link>
 
-            <Link href={props.linkedin}>
-                <a className="link"><i className="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <Link className="link" href={props.linkedin}>
+                <i className="fa-brands fa-linkedin"></i> LinkedIn
             </Link>
 
-            <Link href="http://www.chavemestra.net/">
-                <a className="link"><i className="fa-solid fa-link"></i> Site Chave-Mestra</a>
+            <Link className="link" href="http://www.chavemestra.net/">
+                <i className="fa-solid fa-link"></i> Site Chave-Mestra
             </Link>
 
         </div>

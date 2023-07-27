@@ -49,9 +49,6 @@ a{
     text-decoration:none;
     transition: 0.3s;
 }
-a:hover{
-    color:$accent;
-}
 ul, li{
     list-style: none;
 }
@@ -134,4 +131,119 @@ button:focus {
         }
     }
 
+}
+
+.gamificacao{
+    margin-top: -5vh;
+    min-height: 101vh;
+    background-color: #7109B6;
+
+    main{
+        overflow-x: hidden;
+        position: relative;
+        height: 105vh;
+    }
+
+    .logo-wrapper{
+        z-index: 10;
+        padding: 4rem 0 1rem 0;
+        margin: 0;
+        min-height: unset;
+    }
+
+    .text{
+        margin-top: 1rem;
+        font-weight: bold;
+        z-index: 10;
+    }
+
+    .sphere{
+        position: absolute;
+        width: 27.5625rem;
+        height: 27.5625rem;
+
+        &.blue{
+            right: -15.625rem;
+            top: -12.375rem;
+            border-radius: 27.5625rem;
+            background: rgba(0, 163, 255, 0.33);
+            filter: blur(35.5px);
+        }
+        &.purple{
+            left: -14.375rem;
+            bottom: -6.875rem;
+            border-radius: 27.5625rem;
+            background: rgba(247, 147, 30, 0.19);
+            filter: blur(35.5px);
+        }
+    }
+
+    .icons{
+        position: absolute;
+        z-index: 1;
+
+        &.trophy{
+            right: 0.42869rem;
+            top: 11.25rem;
+            width: 7.50875rem;
+            height: 7.50875rem;
+            transform: rotate(15deg);
+        }
+        &.gem{
+            left: -1.6875rem;
+            top: 16.6875rem;
+            width: 8.5465rem;
+            height: 8.16956rem;
+            transform: rotate(-15deg);
+        }
+        &.medal{
+            width: 7.50875rem;
+            height: 7.50875rem;
+            transform: rotate(6deg);
+            right: 6.67869rem;
+            bottom: 12.05369rem;
+        }
+        &.gamepad{
+            width: 10.21425rem;
+            height: 9.05806rem;
+            transform: rotate(-7.205deg);
+            left: 0.8125rem;
+            bottom: 1.01769rem;
+        }
+    }
+
+    .grid{
+        padding: 0 40px;
+    }
+
+    .link{
+        z-index: 10;
+        padding: 0.625rem;
+        display: flex;
+        gap: 0.75rem;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.75rem;
+        border: 1px solid rgba(255, 255, 255, 0.39);
+        background: rgba(0, 0, 0, 0.50);
+        backdrop-filter: blur(3.5px);
+        color: white;
+        font-weight: bold;
+        border-radius: 0.75rem;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+        &.more{
+            border-radius: 0.75rem;
+            border: 1px solid rgba(255, 255, 255, 0.39);
+            background: rgba(0, 163, 255, 0.50);
+            backdrop-filter: blur(3.5px);
+        }
+    }
+
+    .socialButtons{
+        margin-top: 12px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
 }
