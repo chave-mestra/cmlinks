@@ -571,7 +571,7 @@ export default function Gamificacao() {
 
             <Button
               icon={icons['chest-magic']}
-              text='Webinar'
+              text='Inscrição Webinar'
               href='https://docs.google.com/forms/d/e/1FAIpQLSeQ4owwBou3aCrEKWATo0-ZdXnpDcPj-J0XGWkla822R1y1kA/viewform'
             />
 
