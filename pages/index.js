@@ -29,9 +29,9 @@ export default function Escape() {
 					<Link
 						className="link midnight"
 						href="https://lp.chavemestra.net/midnight"
-            target='_blank'
+						target="_blank"
 					>
-						<EscapeDoor className="escapeDoor"/>
+						<EscapeDoor className="escapeDoor" />
 						<span>Midnight Escape</span>
 					</Link>
 
