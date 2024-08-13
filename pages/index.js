@@ -26,14 +26,14 @@ export default function Escape() {
 				</Link>
 
 				<div className="grid">
-					<Link
+					{/* <Link
 						className="link midnight"
 						href="https://lp.chavemestra.net/midnight"
 						target="_blank"
 					>
 						<EscapeDoor className="escapeDoor" />
 						<span>Midnight Escape</span>
-					</Link>
+					</Link> */}
 
 					<Link className="link" href="http://www.chavemestra.net/">
 						Site Chave-Mestra
