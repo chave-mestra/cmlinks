@@ -52,6 +52,12 @@ export default function Escape() {
 					>
 						Jogos Corporativos
 					</Link>
+					<Link
+						className="link"
+						href="https://meeplestarter.com.br/pocketpuzzle"
+					>
+						Pocket Puzzle
+					</Link>
 				</div>
 			</main>
 		</div>
