@@ -54,7 +54,7 @@ export default function Escape() {
 					</Link>
 					<Link
 						className="link"
-						href="https://meeplestarter.com.br/pocketpuzzle"
+						href="https://chavemestralab.com/"
 					>
 						Pocket Puzzle
 					</Link>
