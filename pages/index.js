@@ -45,6 +45,12 @@ export default function Escape() {
 					>
 						Whatsapp
 					</Link>
+					<Link
+						className="link"
+						href="https://forms.gle/wqbKtLuQBnwyHCxC8"
+					>
+						Sorteio DOFF
+					</Link>
 
 					<Link
 						className="link"

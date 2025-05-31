@@ -45,17 +45,19 @@ export default function Escape() {
 					>
 						Whatsapp
 					</Link>
-
+					<Link
+						className="link"
+						href="https://forms.gle/wqbKtLuQBnwyHCxC8"
+					>
+						Sorteio DOFF
+					</Link>
 					<Link
 						className="link"
 						href="http://www.instagram.com/chavemestracorp"
 					>
 						Jogos Corporativos
 					</Link>
-					<Link
-						className="link"
-						href="https://chavemestralab.com/"
-					>
+					<Link className="link" href="https://chavemestralab.com/">
 						Pocket Puzzle
 					</Link>
 					<Link
